@@ -1,7 +1,9 @@
 N = int(input())
-S = 0
+S = ""
 
-for i in list(range(1,N+1)):
-    S = S + len(str(i))
+for i in range(1,N+1):
+    S = S + str(i)
 
-print(S)
+print(len(S))
+
+ if 
